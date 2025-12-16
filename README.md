@@ -36,7 +36,7 @@ The project is a work in progress: star it, create issues, features or pull requ
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/avoylenko/wwebjs-api.git
+git clone https://github.com/hbehrad/wwebjs-api.git
 cd wwebjs-api
 ```
 
