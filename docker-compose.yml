@@ -13,6 +13,9 @@ services:
     env_file: .env
     volumes:
       - ./sessions:/usr/src/app/sessions
+      environment:                 
+      - CHROME_BIN=/usr/bin/chromium 
+      - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true 
     # Optional healthcheck
     # healthcheck:
     #   test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
